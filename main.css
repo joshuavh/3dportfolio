@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    background: rgb(156,238,255);
+    background: linear-gradient(180deg, rgb(176, 242, 255) 0%, rgba(0,182,255,1) 100%);
+}
+
+#sign {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    color: black;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    padding: 8px 16px;
+    z-index: 999;
+    border-radius: 4px;
+    font-family: Helvetica, Arial,  sans-serif;
+    display: none;
+  }
+
+/*# sourceMappingURL=main.css.map*/
