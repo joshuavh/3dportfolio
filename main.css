@@ -1,3 +1,78 @@
+#loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+  @keyframes loader {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    25% {
+      transform: rotate(180deg);
+    }
+  
+    50% {
+      transform: rotate(180deg);
+    }
+  
+    75% {
+      transform: rotate(360deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes loader-inner {
+    0% {
+      height: 0%;
+    }
+  
+    25% {
+      height: 0%;
+    }
+  
+    50% {
+      height: 100%;
+    }
+  
+    75% {
+      height: 100%;
+    }
+  
+    100% {
+      height: 0%;
+    }
+  }
+  
 *
 {
     margin: 0;
@@ -16,20 +91,20 @@ body
     top: 0;
     left: 0;
     outline: none;
-    background:#a6dcff;
 }
 
 .sign {
     position: fixed;
-    width: 100%;
+    width: 90%;
     max-width: 540px;
-    height: 33vw;
-    top: 0;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
-    color:#06283d;
+    color:#23063d;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 16px;
     box-sizing: border-box;
-    padding: 5% 5%;
+    padding: 24px;
     z-index: 999;
     font-family: 'Public Sans', sans-serif;
     display: none;
@@ -37,12 +112,12 @@ body
   }
 
 h1{
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 600;
 }
 
 h2{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -66,18 +141,18 @@ button{
     text-transform: uppercase;
     border: none;
     background-color: white;
-    color: #06283d;
+    color: #23063d;
     border-radius: 8px;    
 }
 
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
   }
