@@ -109,6 +109,7 @@ h2{
 h3{
     font-size: 20px;
     font-weight: 400;
+    line-height: 140%;
 }
 
 p {
@@ -140,8 +141,7 @@ p {
     background-image: url(assets/images/4ff37b43972366e86f06e96597502850.png);
     background-size: 48px;
     text-align: center;
-    margin: 48px auto 48px auto;
-    margin-top: 24px;
+    margin: 48px auto 8px auto;
 }
 
 
@@ -208,7 +208,6 @@ p {
     background-position: center;
 }
 
-
 button{
     width: 100%;
     padding: 16px;
@@ -260,16 +259,16 @@ button:active {
     top: 50%;
     transform: translateY(-50%);
     font-size: 64px;
-    max-width: 1200px;
+    max-width: 960px;
     margin: auto;
 }
 
 #syng-header {
-    background-image: url(assets/images/7b820ede6a3febb9483da100b9422ed5.jpg);
+    background-image: url(assets/images/95aed0a73a2be106146469bbbdd43d5d.jpg);
 }
 
 .modal-content-wrapper {
-    max-width: 1200px;
+    max-width: 960px;
     margin: 48px auto 48px auto;
     display: flex;
     flex-direction: column;
@@ -277,9 +276,21 @@ button:active {
     justify-content: space-between;
 }
 
+.project-image{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#syng-img-1 {background-image: url(assets/images/254599cd6ae75d17bc622d7420c5acde.jpg);}
+#syng-img-2 {background-image: url(assets/images/f1429ea51569cb7a2974bbb6eec522cf.jpg);}
+#syng-img-3 {background-image: url(assets/images/e00c13c829543d0760048b18300c1182.jpg);}
+
 
 .close {
-    position: absolute;
+    position: fixed;
     background-image: url(assets/images/735cc185507150f225f38b1b62e7c895.png);
     background-size: 48px;
     width: 48px;
