@@ -95,9 +95,9 @@ body
 }
 
 h1{
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 4px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 140%;
 }
 
 h2{
@@ -108,14 +108,19 @@ h2{
 
 h3{
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 140%;
 }
 
 p {
-    margin: 0;
     font-size: 16px;
     line-height: 140%;
+}
+
+p2 {
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 300;
 }
 
 .sign {
@@ -141,7 +146,7 @@ p {
     background-image: url(assets/images/4ff37b43972366e86f06e96597502850.png);
     background-size: 48px;
     text-align: center;
-    margin: 48px auto 8px auto;
+    margin: 32px auto 8px auto;
 }
 
 
@@ -235,6 +240,7 @@ button:active {
 .modal {
     height: 100vh;
     width: 100vw;
+    overflow-y: auto;
     background-color: black;
     color: white;
     position: fixed; 
@@ -243,7 +249,6 @@ button:active {
 
 #syng-modal{
     display: none;
-    overflow-y: auto;
 }
 
 .header {
@@ -272,25 +277,16 @@ button:active {
     margin: 48px auto 48px auto;
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
+    row-gap: 96px;
     justify-content: space-between;
+    padding-bottom: 48px;
+
 }
 
-.project-image{
-    width: 100%;
-    height: 50vh;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.project-img{
+    width:100%;
+    height:auto;
 }
-
-#syng-img-1 {background-image: url(assets/images/2712865a90091edab3ec539f5f8ebe5a.jpg);}
-#syng-img-2 {background-image: url(assets/images/fcc6dfc021688f3a6d22baa5493694e9.jpg);}
-#syng-img-3 {background-image: url(assets/images/6170404d18c7a886e2f5ffd5290b0100.jpg);}
-#syng-img-4 {background-image: url(assets/images/765b3db4c31ddd8d7922a40b7ad5f9cb.jpg);}
-#syng-img-5 {background-image: url(assets/images/51a4bb5163429755ff4bbbc737cb1e90.jpg);}
-#syng-img-6 {background-image: url(assets/images/fce316108a5876d19c61926a8e8eb224.jpg);}
-
 
 .close {
     position: fixed;
@@ -323,10 +319,14 @@ button:active {
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     h2 {
+        font-size: 18px;
+    }
+
+    p2 {
         font-size: 18px;
     }
 
@@ -336,6 +336,7 @@ button:active {
 
     .modal-content-wrapper {
         margin: 20px;
+        row-gap: 56px;
     }
 
     .header {
