@@ -264,7 +264,7 @@ button:active {
 }
 
 #syng-header {
-    background-image: url(assets/images/95aed0a73a2be106146469bbbdd43d5d.jpg);
+    background-image: url(assets/images/85a14e8013f82b29b8b876e86c9e863c.jpg);
 }
 
 .modal-content-wrapper {
@@ -278,15 +278,18 @@ button:active {
 
 .project-image{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#syng-img-1 {background-image: url(assets/images/254599cd6ae75d17bc622d7420c5acde.jpg);}
-#syng-img-2 {background-image: url(assets/images/f1429ea51569cb7a2974bbb6eec522cf.jpg);}
-#syng-img-3 {background-image: url(assets/images/e00c13c829543d0760048b18300c1182.jpg);}
+#syng-img-1 {background-image: url(assets/images/2712865a90091edab3ec539f5f8ebe5a.jpg);}
+#syng-img-2 {background-image: url(assets/images/fcc6dfc021688f3a6d22baa5493694e9.jpg);}
+#syng-img-3 {background-image: url(assets/images/6170404d18c7a886e2f5ffd5290b0100.jpg);}
+#syng-img-4 {background-image: url(assets/images/765b3db4c31ddd8d7922a40b7ad5f9cb.jpg);}
+#syng-img-5 {background-image: url(assets/images/51a4bb5163429755ff4bbbc737cb1e90.jpg);}
+#syng-img-6 {background-image: url(assets/images/fce316108a5876d19c61926a8e8eb224.jpg);}
 
 
 .close {
