@@ -251,6 +251,10 @@ button:active {
     display: none;
 }
 
+#start {
+    display: block;
+}
+
 .header {
     height: 480px;
     width: 100vw;
